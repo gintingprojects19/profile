@@ -2,6 +2,11 @@ var m = document.getElementById("m");
 var openM = document.getElementById("open-m");
 var clsM = document.getElementById("cls-m");
 var ds =document.getElementById("d");
+var saya = document.getElementById("tbl-saya");
+var suara= new Audio("gigi.mp3");
+saya.addEventListener("click",function(){
+    suara.play();
+})
 /*ds.addEventListener("click", function(){
     centerBar.style.marginLeft="-500px";
     openM.style.display="none";
