@@ -3,7 +3,7 @@ var openM = document.getElementById("open-m");
 var clsM = document.getElementById("cls-m");
 var ds =document.getElementById("d");
 var saya = document.getElementById("tbl-saya");
-var suara= new Audio("gigi.mp3");
+var suara= new Audio("gtg.mp3");
 saya.addEventListener("click",function(){
     suara.play();
 })
